@@ -1,37 +1,38 @@
 .header {
-	position: absolute;
+	display: flex;
+	justify-content: space-between;
 	border-style: solid;
 	border-width: 2px;
 	height: 70px;
-	top: 15px;
-	width:1024px;
-	left:40px;
+	width: -2px;
 }
+
 .logo {
-	position: absolute;
-	left:20px;
-	top: 15px;
+	display: flex;
+	padding: 3px;
 	width: 100px;
-	height:50px;
-	;
+	height: 50px;
 
 }
 .contato{
-	position: absolute;
-	left:874px;
-	top: 15px;
+	display: flex;
+	padding: 3px;
 	width: 100px;
 	height:50px;
 }
 
-
+.container {
+	display: flex;
+	justify-content: center;
+	font-size: 3rem;
+}
 
 .projetos-menu {
-  position: absolute;
-  left: 256px;
-  top: 380px;
-  width: 1024px;
-  text-align: left;
+    position: absolute;
+    left: 256px;
+    top: 180px;
+    width: 1024px;
+    text-align: left;
 }
 
 .projetos-menu-item {
@@ -73,13 +74,15 @@
 }
 
 .img {
-  display: inline-block;
-  position: relative;
-  
-  width: 500px;
-  height: 300px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 50px;
+  width: 250px;
+  height: 200px;
 }
 
-.img_p {
-  align-items: center;
+.sections-projetos {
+	position: absolute;
+	top: 500px;
+
 }

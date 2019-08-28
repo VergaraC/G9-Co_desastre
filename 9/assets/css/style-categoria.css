@@ -1,40 +1,4 @@
- /* geral */
 
-body{
-	font: normal 12pt arial;
-}
-
-.header {
-	/*position: absolute;*/
-	display: flex;
-	justify-content: center;
-	text-align: flex-start;
-	border-style: solid;
-	border-width: 2px;
-	height: 70px;
-	top: 15px;
-	width:1024px;
-	left:40px;
-}
-.logo {
-	position: absolute;
-	left:20px;
-	top: 15px;
-	width: 100px;
-	height:50px;
-	;
-
-}
-.contato{
-	position: absolute;
-	left:874px;
-	top: 15px;
-	width: 100px;
-	height:50px;
-}
-
- 
- /* categoria.html */
 
 .category-title {
   display: grid;

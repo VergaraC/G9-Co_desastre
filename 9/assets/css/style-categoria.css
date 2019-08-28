@@ -1,4 +1,10 @@
 
+.category-body {
+  font-family: 'Open Sans', sans-serif; 
+
+}
+
+
 
 .category-title {
   display: grid;
@@ -8,7 +14,8 @@
 }
 
 .title{
-  font: normal 15pt arial;
+  font-family: 'EB Garamond', serif;
+  font: normal 24pt 'EB Garamond';
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 2;
@@ -17,8 +24,8 @@
 }
 
 .category-title-image {
-  width: 390px;
-  height: 150px;
+  width: 100%;
+  height: 110%;
   grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 2;
@@ -34,10 +41,6 @@
 }
 
 .projetos-menu {
-  /*position: absolute;
-  left: 256px;
-  top: 380px;
-  width: 1024px;*/
   justify-content: center;
   text-align: center;
 }
@@ -45,44 +48,39 @@
 .projetos-menu-item {
   display: flex;
   justify-content: center;
-  /*position: relative;
-  width: 500px;
-  height: 250px;*/
+
 }
 
 .projetos-menu-item-image {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  /*position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 200px;
-  height: 250px;*/
+  width: 10rem;
+  height: 12rem;
+
 }
 
 .projetos-menu-item-text {
-  /*position: absolute;
-  left: 210px;
-  top: 10px;
-  width: 250px;
-  height: 250px;*/
+  justify-content: space-between;
+
 }
 
 .categories-menu {
-  /*position: absolute;*/
   align-items: flex-end;
   display: flex;
-  justify-content: space-between; 
-  /*left: 150px;
-  top: 1200px;
-  width: 1024px;
-  text-align: left;*/
+  flex-direction: row;
+  justify-content: space-around; 
+ 
 }
 
-.categories-menu-item {
-  /*display: inline-block;
-  position: relative;
-  width: 300px;
-  height: 250px;*/
+.categories-menu-item-image {
+  width: 5rem;
+  height: 6rem;
+ 
+}
+
+.categories-menu-item-text {
+  justify-content: center;
+}
+
+.categories-menu-item-text {
+  font-family: 'EB Garamond', serif;
+  font: normal 14pt 'EB Garamond';
 }

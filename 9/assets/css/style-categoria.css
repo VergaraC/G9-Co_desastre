@@ -5,7 +5,11 @@
 
 }
 
+.ver_mais{
+  font-family: 'Open Sans', sans-serif; 
+  font: normal 11pt 'Open Sans';
 
+}
 
 .category-title {
   display: grid;
@@ -23,6 +27,13 @@
   grid-column-end: 3;
   text-align: center;
 }
+
+.sub_title{
+  font-family: 'Open Sans', sans-serif; 
+  font: normal 18pt 'Open Sans';
+
+}
+
 
 .category-title-image {
   width: 100%;

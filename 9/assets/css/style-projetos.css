@@ -2,8 +2,21 @@
 .container {
 	display: flex;
 	justify-content: center;
-	font-size: 3rem;
+    font-family: 'EB Garamond', serif;
+    font: normal 24pt 'EB Garamond';
 }
+
+.sub-title{
+  font-family: 'EB Garamond', serif;
+  font: normal 18pt 'EB Garamond';
+  
+}
+
+.b_text {
+  font-family: 'Open Sans', sans-serif; 
+  font: normal 14pt 'Open Sans';
+}
+
 
 .img_txt {
 	align-items: flex-start;
@@ -13,8 +26,8 @@
 .projetos-menu {
     align-items: flex-start;
     text-align: center;
-
 }
+
 .img {
   width: 20%;
 }

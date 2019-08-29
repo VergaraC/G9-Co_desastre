@@ -18,14 +18,9 @@
 }
 
 
-.img_txt {
-	align-items: flex-start;
-	justify-content: space-between;
-}
-
 .projetos-menu {
-    align-items: flex-start;
-    text-align: center;
+	display: flex;
+	flex-direction: row;
 }
 
 .img {

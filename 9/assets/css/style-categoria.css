@@ -1,6 +1,7 @@
 
 .category-body {
   font-family: 'Open Sans', sans-serif; 
+  font: normal 14pt 'Open Sans';
 
 }
 
@@ -82,5 +83,5 @@
 
 .categories-menu-item-text {
   font-family: 'EB Garamond', serif;
-  font: normal 14pt 'EB Garamond';
+  font: normal 18pt 'EB Garamond';
 }

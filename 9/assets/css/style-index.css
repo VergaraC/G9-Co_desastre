@@ -1,7 +1,19 @@
 .index-title {
   justify-content: center;
 }
-
+.title{
+  font-family: 'EB Garamond', serif;
+  font: normal 24pt 'EB Garamond';
+}
+.sub-title{
+  font-family: 'EB Garamond', serif;
+  font: normal 18pt 'EB Garamond';
+  
+}
+.b_text{
+  font-family: 'Open Sans', sans-serif; 
+  font: normal 14pt 'Open Sans';
+}
 .parent{
   margin-top:3rem;
   display: grid;

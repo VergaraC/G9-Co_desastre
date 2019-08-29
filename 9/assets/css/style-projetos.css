@@ -6,10 +6,15 @@
     font: normal 24pt 'EB Garamond';
 }
 
-.sub-title{
+.sub_title{
   font-family: 'EB Garamond', serif;
   font: normal 18pt 'EB Garamond';
   
+}
+
+.sub_sub_title{
+  font-family: 'EB Garamond', serif;
+  font: normal 14pt 'EB Garamond';
 }
 
 .b_text {

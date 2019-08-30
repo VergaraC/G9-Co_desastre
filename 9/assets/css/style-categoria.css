@@ -2,12 +2,14 @@
 .category-body {
   font-family: 'Open Sans', sans-serif; 
   font: normal 14pt 'Open Sans';
+  background-color: #dbdacc;
 
 }
 
 .ver_mais{
   font-family: 'Open Sans', sans-serif; 
   font: normal 11pt 'Open Sans';
+  color: #4d4c47;
 
 }
 
@@ -21,6 +23,7 @@
 .title{
   font-family: 'EB Garamond', serif;
   font: normal 24pt 'EB Garamond';
+  color: #ff0000;
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 2;
@@ -31,6 +34,7 @@
 .sub_title{
   font-family: 'Open Sans', sans-serif; 
   font: normal 18pt 'Open Sans';
+  color:#e00000;
 
 }
 
@@ -90,6 +94,7 @@
 
 .categories-menu-item-text {
   justify-content: center;
+  color:#e00000;
 }
 
 .categories-menu-item-text {

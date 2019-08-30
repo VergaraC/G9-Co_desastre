@@ -1,9 +1,19 @@
 
+.body {
+	background-color: #e0dfd1;
+}
+
 .container {
 	display: flex;
 	justify-content: center;
     font-family: 'EB Garamond', serif;
     font: normal 24pt 'EB Garamond';
+    color: #ff0000;
+}
+
+.sub_sub_title {
+	align-items: center;
+	justify-content: center;
 }
 
 .sub_title{
@@ -15,6 +25,7 @@
 .sub_sub_title{
   font-family: 'EB Garamond', serif;
   font: normal 14pt 'EB Garamond';
+  color: #e00000;
 }
 
 .b_text {
@@ -26,6 +37,7 @@
 .projetos-menu {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 }
 
 .projetos-menu-img {
@@ -49,3 +61,4 @@
 	width: 10rem;
 	height: 10rem;
 }
+

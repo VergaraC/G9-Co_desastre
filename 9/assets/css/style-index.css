@@ -8,10 +8,14 @@
 }
 .sub-title{
   font-family: 'EB Garamond', serif;
-  font: normal 18pt 'EB Garamond';
+  font: normal 20pt 'EB Garamond';
   color: #e00000;
 }
-
+.over_title{
+  font-family: 'EB Garamond', serif;
+  font: normal 32pt 'EB Garamond';
+  color: #e00000;
+}
 .body {
 	background-color: #e0dfd1;
 }
@@ -48,7 +52,7 @@
 
 .index-title{
   grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-end: 3;
   grid-column-start: 3;
   grid-column-end: 4;
 }

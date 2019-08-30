@@ -4,15 +4,22 @@
 .title{
   font-family: 'EB Garamond', serif;
   font: normal 24pt 'EB Garamond';
+  color: #ff0000;
 }
 .sub-title{
   font-family: 'EB Garamond', serif;
   font: normal 18pt 'EB Garamond';
-  
+  color: #e00000;
 }
+
+.body {
+	background-color: #e0dfd1;
+}
+
 .b_text{
   font-family: 'Open Sans', sans-serif; 
   font: normal 14pt 'Open Sans';
+  color: #000000;
 }
 .parent{
   margin-top:3rem;

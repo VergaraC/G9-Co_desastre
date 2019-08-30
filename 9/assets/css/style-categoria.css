@@ -93,11 +93,8 @@
 }
 
 .categories-menu-item-text {
-  justify-content: center;
-  color:#e00000;
-}
-
-.categories-menu-item-text {
   font-family: 'EB Garamond', serif;
   font: normal 18pt 'EB Garamond';
+  justify-content: center;
+  color:#e00000;
 }

@@ -11,14 +11,10 @@
     color: #ff0000;
 }
 
-.sub_sub_title {
-	align-items: center;
-	justify-content: center;
-}
-
 .sub_title{
   font-family: 'EB Garamond', serif;
   font: normal 18pt 'EB Garamond';
+  color: #000000;
   
 }
 
@@ -31,6 +27,7 @@
 .b_text {
   font-family: 'Open Sans', sans-serif; 
   font: normal 14pt 'Open Sans';
+  color: #000000;
 }
 
 
@@ -45,15 +42,9 @@
 }
 
 .sections-projetos {
-    align-items: flex-end;
-    display: flex; 
-	margin-top: 4rem;
-	justify-content: space-around;
-	max-width: 100%
-}
+	display: flex;
+	justify-content: space-between;
 
-.texto {
-	max-width: 50%
 }
 
 .projetos_outros-image {

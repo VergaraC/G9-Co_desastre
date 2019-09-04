@@ -3,6 +3,12 @@
 	background-color: #e0dfd1;
 }
 
+.titulo_pygame {
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
+}
+
 .container {
 	display: flex;
 	justify-content: center;
@@ -15,7 +21,6 @@
   font-family: 'EB Garamond', serif;
   font: normal 18pt 'EB Garamond';
   color: #000000;
-  
 }
 
 .sub_sub_title{
@@ -30,11 +35,12 @@
   color: #000000;
 }
 
-
 .projetos-menu {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-around;
+	margin-top: 2rem;
+
 }
 
 .projetos-menu-img {
@@ -43,8 +49,12 @@
 
 .sections-projetos {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
+	margin-top: 4rem;
+}
 
+.oi {
+	display: flex;
 }
 
 .projetos_outros-image {
@@ -52,4 +62,3 @@
 	width: 10rem;
 	height: 10rem;
 }
-

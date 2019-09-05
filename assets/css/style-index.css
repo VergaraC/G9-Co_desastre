@@ -1,11 +1,7 @@
 .index-title {
   justify-content: center;
 }
-.title{
-  font-family: 'EB Garamond', serif;
-  font: normal 24pt 'EB Garamond';
-  color: #ff0000;
-}
+
 .sub-title{
   font-family: 'EB Garamond', serif;
   font: normal 20pt 'EB Garamond';
@@ -28,62 +24,103 @@
 .parent{
   margin-top:3rem;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 0.5fr 0.5fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .child1,.child2,.child3,.child4{
   margin: 1rem;
   padding: 1rem;
   flex-basis: 10rem;
-
 }
 
 .child_image1,.child_image2,.child_image3,.child_image4{
   margin: 1rem;
   padding: 1rem
 }
+
 .child_text1,.child_text2,.child_text3,.child_text4{
-  margin: 1rem;
+  margin: 0.3rem;
   padding: 1rem;
   flex-basis: 10rem;
 }
 
-.index-title{
+.descricao{
+  font-family: 'Open Sans', sans-serif; 
+  font: normal 14pt 'Open Sans';
+  color: #000000;
+  align-items: center;
+  text-align: center;
   grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  
+}
+
+.title{
+  font-family: 'EB Garamond', serif;
+  font: normal 24pt 'EB Garamond';
+  color: #ff0000;
+  text-align: center;
+  grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 3;
-  grid-column-end: 6;
-  justify-content: center;
+  grid-column-end: 5;
+
+}
+
+.img_title{
+  grid-row-start: 0;
+  grid-row-end: 1;
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
 
 .child1{
+  border-style: solid;
+  border-width: 2px; 
+  border-radius: 20%;
+  border-color: #e00000;  
+  text-align: left;
   grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 2;
   grid-column-end: 4;
 }
-
 
 .child2{
+  border-style: solid;
+  border-width: 2px; 
+  border-radius: 20%;
+  border-color: #e00000;  
+  text-align: left;
   grid-row-start: 2;
   grid-row-end: 3;
-  grid-column-start: 5;
-  grid-column-end: 7;
+  grid-column-start: 4;
+  grid-column-end: 6;
 }
 
-
 .child3{
+  border-style: solid;
+  border-width: 2px; 
+  border-radius: 20%;
+  border-color: #e00000;  
+  text-align: left;
   grid-row-start: 3;
   grid-row-end: 4;
   grid-column-start: 2;
   grid-column-end: 4;
 }
 
-
 .child4{
+  border-style: solid;
+  border-width: 2px; 
+  border-radius: 20%;
+  border-color: #e00000;  
+  text-align: left;
   grid-row-start: 3;
   grid-row-end: 4;
-  grid-column-start: 5;
-  grid-column-end: 7;
+  grid-column-start: 4;
+  grid-column-end: 6;
 }

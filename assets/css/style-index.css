@@ -7,11 +7,13 @@
   font: normal 20pt 'EB Garamond';
   color: #e00000;
 }
+
 .over_title{
   font-family: 'EB Garamond', serif;
   font: normal 32pt 'EB Garamond';
   color: #e00000;
 }
+
 .body {
 	background-color: #e0dfd1;
 }

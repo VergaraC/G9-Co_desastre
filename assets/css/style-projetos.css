@@ -53,6 +53,7 @@
 }
 
 .itens-projeto {
+
 	margin-top: 1rem;
 	margin-right: 1rem;
 }
@@ -113,6 +114,10 @@
 		margin-left: 1rem;
 
 
+	}
+
+	.sections-projetos {
+		display: none;
 	}
 
 }

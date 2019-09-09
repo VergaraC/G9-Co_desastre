@@ -126,7 +126,7 @@
   grid-column-start: 4;
   grid-column-end: 6;
 }
-@media (max-width:362px){
+@media (max-width:64rem){
 
   .parent{
     margin-top:3rem;

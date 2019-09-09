@@ -16,3 +16,11 @@
 	float: right;
 	
 }
+@media (max-width:360px){
+	.header {
+		height: 7rem;
+		width:119%;
+		background-color: #4d4c47;
+	}
+
+}

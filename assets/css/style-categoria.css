@@ -98,3 +98,22 @@
   justify-content: center;
   color:#e00000;
 }
+
+.footer-categoria {
+  height: 7rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.email {
+  width: 2rem;
+  margin-left: 2rem;
+}
+
+.linked {
+  width: 2rem;
+  margin-left: 2rem;
+}

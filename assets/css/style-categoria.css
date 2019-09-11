@@ -70,6 +70,7 @@
 .projetos-menu-item-image {
   width: 10rem;
   height: 12rem;
+  border-radius: 20%;
 
 }
 
@@ -89,6 +90,7 @@
 .categories-menu-item-image {
   width: 5rem;
   height: 6rem;
+  border-radius: 20%;
   
 }
 

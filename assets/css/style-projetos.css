@@ -93,6 +93,7 @@
 }
 
 .email {
+	flex-direction: column;
 	width: 2rem;
 	margin-left: 2rem;
 }

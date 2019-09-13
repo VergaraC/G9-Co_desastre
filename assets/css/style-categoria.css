@@ -15,8 +15,8 @@
 
 .category-title {
   display: grid;
-  grid-template-rows:0.5fr 1fr 0.5fr;
-  grid-template-columns:1fr 1fr 0.25fr 1.25fr 0.25fr 0.25fr 1fr;
+  grid-template-rows:0.4fr 0.5fr 1fr 0.5fr;
+  grid-template-columns:1fr 0.25fr 0.25fr 1fr 0.25fr 0.25fr 1fr;
 
 }
 
@@ -24,8 +24,8 @@
   font-family: 'EB Garamond', serif;
   font: normal 24pt 'EB Garamond';
   color: #ff0000;
-  grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
   grid-column-start: 4;
   grid-column-end: 5;
   text-align: center;
@@ -42,15 +42,15 @@
 .category-title-image {
   width: 100%;
   height: 110%;
-  grid-row-start: 2;
-  grid-row-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
   grid-column-start: 4;
   grid-column-end: 5;
 }
 
 .description{
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
   grid-column-start: 4;
   grid-column-end: 5;
   text-align: center;
@@ -59,8 +59,7 @@
 .projetos-menu {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-around; 
 }
 
 .projetos-menu-item {

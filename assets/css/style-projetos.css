@@ -83,7 +83,9 @@
 	height: 10rem;
 }
 
+
 .footer {
+	display: flex;
 	height: -5%;
 	width: 100%;
 	display: flex;
@@ -93,14 +95,28 @@
 }
 
 .email {
-	flex-direction: column;
-	width: 2rem;
+	display: flex;
+	flex-direction: row;
 	margin-left: 2rem;
+	margin-bottom: 1rem;
+	margin-top: 2rem;
+}
+
+.email1 {
+	width: 2rem;
+	margin-left: 0.5rem;
 }
 
 .linked {
-	width: 2rem;
+	display: flex;
+	flex-direction: row;
 	margin-left: 2rem;
+	margin-bottom: 1rem;
+}
+
+.linked1 {
+	width: 2rem;
+	margin-left: 0.5rem;
 }
 
 @media (max-width: 68rem) {

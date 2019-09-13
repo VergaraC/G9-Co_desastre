@@ -10,6 +10,7 @@
 }
 
 .titulo_pygame {
+	margin-top: 1rem;
 	text-align: center;
 	font-family: 'EB Garamond', serif;
     font: normal 24pt 'EB Garamond';
@@ -20,6 +21,7 @@
   font-family: 'EB Garamond', serif;
   font: normal 18pt 'EB Garamond';
   color: #000000;
+  margin-bottom: 1rem;
 }
 
 .sub_sub_title{
@@ -38,7 +40,7 @@
 
 .b_text_2 {
   font-family: 'Open Sans', sans-serif; 
-  font: normal 18pt 'Open Sans';
+  font: normal 14pt 'Open Sans';
   color: #000000;
   text-align: left;
 }
@@ -53,7 +55,6 @@
 }
 
 .itens-projeto {
-
 	margin-top: 1rem;
 	margin-right: 1rem;
 	margin-left: 0.5rem;
@@ -71,9 +72,10 @@
 }
 
 .descricao {
-	display: flex;
 	flex-direction: column;
-	margin: 1rem;
+	margin-top: 1rem;
+	margin-left: 2rem;
+	margin-bottom: 1rem;
 
 }
 
@@ -81,6 +83,7 @@
 	display: flex;
 	width: 10rem;
 	height: 10rem;
+	max-height: 10rem;
 }
 
 
@@ -129,7 +132,7 @@
 	}
 	.descricao {
 		display: flex;
-		margin-left: 1rem;
+		
 
 
 	}

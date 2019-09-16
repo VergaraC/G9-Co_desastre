@@ -10,11 +10,12 @@
 }
 
 .titulo_pygame {
-	margin-top: 1rem;
+	margin-top: 1%;
 	text-align: center;
 	font-family: 'EB Garamond', serif;
-    font: normal 24pt 'EB Garamond';
+    font: normal 32pt 'EB Garamond';
     color: #ff0000;
+    margin-bottom: 5%;
 }
 
 .sub_title {
@@ -74,7 +75,7 @@
 .descricao {
 	flex-direction: column;
 	margin-top: 1rem;
-	margin-left: 2rem;
+	margin-left: 2.5rem;
 	margin-bottom: 1rem;
 
 }

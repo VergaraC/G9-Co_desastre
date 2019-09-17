@@ -42,14 +42,14 @@
     <div class="child1">
       {{#each portifolio}}
       <img class="child_image1" src="assets/img/{{@key}}.jpg" alt={{this.categoria}}>
-      <div class="child_text1">
-        <p>
-          <a class= "sub-title" href="categoria.html?key={{@key}}">{{this.categoria}}</a>
-        </p> {{this.Descrição}}
-        <p class="b_text">
-          {}
-        </p>
-      </div>
+        <div class="child_text1">
+          <p>
+            <a class= "sub-title" href="categoria.html?key={{@key}}">{{this.categoria}}</a>
+          </p> 
+          <p class="b_text">
+            {{this.Descrição}}
+          </p>
+        </div>
       {{/each}} 
     </div>
 </div>

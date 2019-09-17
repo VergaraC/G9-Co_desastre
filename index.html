@@ -36,59 +36,30 @@
         <br>
 
         <p class="over_title">O que eu já fiz?</p>
-        
+    </div>
       </div>
 
     <div class="child1">
-      <img class="child_image1" src="assets/img/eletronica.jpg" alt="eletronica">
+      {{#each portifolio}}
+      <img class="child_image1" src="assets/img/{{@key}}.jpg" alt={{this.categoria}}>
       <div class="child_text1">
         <p>
-          <a class= "sub-title" href="categoria.html">Eletrônica</a>
-        </p> 
+          <a class= "sub-title" href="categoria.html?key={{@key}}">{{this.categoria}}</a>
+        </p> {{this.Descrição}}
         <p class="b_text">
-          Essa categoria envolve projetos eletrônicos de automação e controle.
+          {}
         </p>
       </div>
     </div>
-    <div class="child2">
-      <img class="child_image2" src="assets/img/data.jpg" alt="data">
-      <div class="child_text2">
-        <p>
-          <a class= "sub-title"  href="categoria.html">Data</a>
-        </p>
-        <p class="b_text">
-          Essa categoria envolve projetos de previsões e conclusões do mundo físico a partir da pesquisa e análise de dados. 
-        </p>
-      </div>
-    </div>
-    <div class="child3">
-      <img class="child_image3" src="assets/img/softwares.png" alt="softwares">
-      <div class="child_text3">
-        <p>
-          <a class= "sub-title" href="categoria.html">Programação de Softwares</a>
-        </p>
-        <p class="b_text">
-          Essa categoria está relacionada a projetos que envolveram a programação de softwares para seu desenvolvimento.
-        </p>
-      </div>
-    </div>
-    <div class="child4">
-      <img class="child_image4" src="assets/img/prototipagem.png" alt="Protótipos">
-      <div class="child_text4">
-        <p>
-          <a  class= "sub-title" href="categoria.html">Protótipos</a>
-        </p>
-        <p class="b_text">
-          Essa categoria envolve projetos da cultura MAKER para fins sociais ou individuais.
-        </p>
-      </div>
-    </div>
-  </div>
+</div>
+
+{{/each}} 
+
   <footer class='footer'>
     <img class='email' src="assets/img/email.png" alt="email">
     <p class="email">robertosilva@gmail.com</p>
     <img class='linked' src="assets/img/link.png" alt="linkedin">
-    <a class='linked' href="https://www.linkedin.com/in/robsilvajr/">https://www.linkedin.com/in/robsilvajr/</a>
+    <a class='linked' href="https://www.linkedin.com/in/robsilvajr/">in/robsilvajr</a>
 </footer>
 </body>
 </html>

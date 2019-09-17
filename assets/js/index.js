@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     db.download('/', function(data) {
       context=data
       coDesReplace('.child1', context)
-
+      coDesReplace('.sub_title', context)
+      coDesReplace('.b_text',context)
     })
   })

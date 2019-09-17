@@ -82,16 +82,20 @@
 }
 
 .child1{
+ 
+  text-align: left;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: auto;
+  grid-column-end: auto;
+}
+
+.sub_child{
   margin-top: 3rem;
   border-style: solid;
   border-width: 2px; 
   border-radius: 20%;
   border-color: #e00000;  
-  text-align: left;
-  grid-row-start: auto;
-  grid-row-end: auto;
-  grid-column-start: auto;
-  grid-column-end: auto;
 }
 
 .footer {

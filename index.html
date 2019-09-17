@@ -27,31 +27,33 @@
       </h1>
       <br>
       <P>
-        Descrição: Engenheiro mecatrônico formado pelo INSPER. Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit, sed do eiusmod temporary incididunt ut labore et dolore magna aliqua. 
-        Enim adim ad minimim veniam, quis nostrud exercise ullamco laboris nisi ut alipip ex ea commodo
-        consequat. Duis auteur irure pain in reprehenderit in voluptate velit this cillum dolore eu fugiat
-        nulla pariatur.</P>
+        Formação: Engenheiro mecatrônico formado pelo INSPER
+        Experiência: 
+        Programação: Python, Arduino, HTML, CSS, JavaScript (com Node)
+        Software: CAD(Fusion), Adobe XD, Postman, Fritzing
+      
+      </P>
         <br>
         <br>
 
         <p class="over_title">O que eu já fiz?</p>
     </div>
-      </div>
+  </div>
 
-    <div class="child1">
-      {{#each portifolio}}
-      <img class="child_image1" src="assets/img/{{@key}}.jpg" alt={{this.categoria}}>
-        <div class="child_text1">
-          <p>
-            <a class= "sub-title" href="categoria.html?key={{@key}}">{{this.categoria}}</a>
-          </p> 
-          <p class="b_text">
-            {{this.Descrição}}
-          </p>
-        </div>
+    <ul class="child1">
+      {{#each portfolio}}
+        <li class="sub_child1">
+        
+          <img class="child_image1" src="assets/img/{{@key}}.jpg" alt={{this.categoria}}>
+            <div class="child_text1">
+              <a class= "sub-title" href="categoria.html?key={{@key}}">{{this.categoria}}</a>
+              <p class="b_text">
+                {{this.Descrição}}
+              </p>
+            </div>
+        </li>
       {{/each}} 
-    </div>
+    </ul>
 </div>
 
   <footer class='footer'>

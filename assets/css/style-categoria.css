@@ -59,12 +59,14 @@
 .projetos-menu {
   display: flex;
   flex-direction: column;
-  justify-content: space-around; 
+  justify-content: space-around;
 }
 
 .projetos-menu-item {
   display: flex;
-  justify-content: center;
+  margin-left: 8rem;
+  margin-bottom: 2rem;
+  align-self: flex-start;
 
 }
 

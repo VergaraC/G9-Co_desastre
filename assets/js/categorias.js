@@ -1,15 +1,20 @@
 document.addEventListener('DOMContentLoaded', function() {
   let params = coDesExtract()
   let value = params['key']
-  
   let db = coDesConnect('https://grupo-l-fafae.firebaseio.com/')
 
-  db.download('/', function(data) {
-    
-    context=data
-    coDesReplace('.categories-menu',context)
+  let strlink = "projeto.html?pai=" + value + "&key={{@key}}"
+  let link = document.querySelector('.sub_title')
+  console.log(link)
+  link.href = strlink
 
-    context=data['portfolio'][value]
+
+
+  
+  db.download('/', function(data) {
+
+    context = data['portfolio'][value]
+    coDesReplace('.category-title',context)
     coDesReplace('.projetos-menu',context)
 
   })

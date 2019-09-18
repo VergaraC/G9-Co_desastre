@@ -20,13 +20,11 @@
 
   <main>
     <div class="category-title">
-      <h1 class="title">
-        Softwares, programas criados
-      </h1>
-      <img class="category-title-image" src="assets/img/softwares.jpg" alt={{this.categoria}}>
+      <p class="title">{{this.categoria}}</p>
+      <img class="category-title-image" src="assets/img/{{@key}}.jpg" alt={{@key}}>
       <p class="description">
         <br>
-        Essa categoria está relacionada a projetos que envolveram a programação de softwares para seu desenvolvimento.
+        {{this.Descrição}}
         <br>
         <br>
       </p>
@@ -44,18 +42,6 @@
             {{this.descricao}}
           </p>
           <a  class="ver_mais" href="projeto.html?key={{@key}}">Ver mais</a>
-        </div>
-      </li>
-      {{/each}}
-    </ul>
-
-
-    <ul class="categories-menu">
-      {{#each portfolio}}
-      <li>
-        <img class="categories-menu-item-image" src="assets/img/{{@key}}.jpg" alt="{{@key}}">
-        <div class="categories-menu-item-text">
-          <a class='categories-menu-item-text' href="categoria.html?key={{@key}}">{{this.categoria}}</a>
         </div>
       </li>
       {{/each}}

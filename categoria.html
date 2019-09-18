@@ -7,6 +7,8 @@
   <link href="assets/css/reset.css" rel="stylesheet">
   <link href="assets/css/style-categoria.css" rel="stylesheet">
   <link rel="stylesheet"  href="assets/css/style-geral.css">
+  <script src="assets/js/codes.js"></script>
+  <script src="assets/js/categorias.js"></script>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
@@ -19,57 +21,32 @@
   <main>
     <div class="category-title">
       <h1 class="title">
-        Softwares, programas criados.
+        Softwares, programas criados
       </h1>
-      <img class="category-title-image" src="assets/img/softwares.jpg" alt="softwares">
+      <img class="category-title-image" src="assets/img/softwares.jpg" alt={{this.categoria}}>
       <p class="description">
         <br>
-        Nessa categoria estão os meus projetos e aplicativos desenvolvidos a partir da programação, mais especificamente, no software Python 3.7.
+        Essa categoria está relacionada a projetos que envolveram a programação de softwares para seu desenvolvimento.
         <br>
         <br>
       </p>
     </div>
 
     <ul class="projetos-menu">
+      {{#each projetos}}
       <li class="projetos-menu-item">
-        <img class="projetos-menu-item-image" src="assets/img/app.jpg" alt="Capa do Aplicativo">
+        <img class="projetos-menu-item-image" src="assets/img/{{@key}}.jpg" alt="{{@key}}">
         <div class="projetos-menu-item-text">
           <p>
-            <a class="sub_title" href="projeto.html">Aplicativo</a>
+            <a class="sub_title" href="projeto.html?key={{@key}}">{{this.titulo}}</a>
           </p>
           <p>
-            <!--Projeto de aplicativo desenvolvido com base nos requisitos diretos do usuário na faculdade INSPER.-->
-            Lor
+            {{this.descricao}}
           </p>
-          <a  class="ver_mais" href="projeto.html">Ver mais</a>
+          <a  class="ver_mais" href="projeto.html?key={{@key}}">Ver mais</a>
         </div>
       </li>
-      <li class="projetos-menu-item">
-        <img class="projetos-menu-item-image" src="assets/img/portfolio.jpeg" alt="Capa do Portfólio">
-        <div class="projetos-menu-item-text">
-          <p>
-            <a class="sub_title" href="projeto.html">Portfólio</a>
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent massa ante, pharetra sit amet odio sed, porttitor finibus augue.
-            <!--Portfolio digital online que serve para registro e identação de projetos de um engenheiro fictício.-->
-          </p>
-          <a  class="ver_mais" href="projeto.html">Ver mais</a>
-        </div>
-      </li>
-      <li class="projetos-menu-item">
-        <img class="projetos-menu-item-image" src="assets/img/python.jpeg" alt="Capa do Jogo em Python">
-        <div class="projetos-menu-item-text">
-          <p>
-            <a class="sub_title" href="projeto.html">Jogo (Pygame)</a>
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent massa ante, pharetra sit amet odio sed, porttitor finibus augue.
-            <!--Jogo bidimensional multiplayer e singleplayer desenvolvido na plataforma PYGAME do Python 3.7-->
-          </p>
-          <a class="ver_mais" href="projeto.html">Ver mais</a>
-        </div>
-      </li>
+      {{/each}}
     </ul>
 
 

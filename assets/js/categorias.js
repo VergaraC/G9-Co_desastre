@@ -7,10 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   db.download('/', function(data) {
     
     context=data
-    coDesReplace('.category-title',context)
-    coDesReplace('.title',context)
-    coDesReplace('.category-title-image',context)
-    coDesReplace('.description',context)
+    coDesReplace('.categories-menu',context)
 
     context=data['portfolio'][value]
     coDesReplace('.projetos-menu',context)

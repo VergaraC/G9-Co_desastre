@@ -51,30 +51,14 @@
 
 
     <ul class="categories-menu">
+      {{#each portfolio}}
       <li>
-        <img class="categories-menu-item-image" src="assets/img/eletronica.jpg" alt="Capa da categoria Eletrônica">
+        <img class="categories-menu-item-image" src="assets/img/{{@key}}.jpg" alt="{{@key}}">
         <div class="categories-menu-item-text">
-          <a class='categories-menu-item-text' href="categoria.html">Eletrônica</a>
+          <a class='categories-menu-item-text' href="categoria.html?key={{@key}}">{{this.categoria}}</a>
         </div>
       </li>
-      <li>
-        <img class="categories-menu-item-image" src="assets/img/data.jpg" alt="Capa da categoria Data">
-        <div class="categories-menu-item-text">
-          <a class='categories-menu-item-text' href="categoria.html">Data</a>
-        </div>
-      </li>
-      <li>
-        <img class="categories-menu-item-image" src="assets/img/prototipagem.jpg" alt="Capa da categoria de Protótipos">
-        <div class="categories-menu-item-text">
-          <a class='categories-menu-item-text' href="categoria.html">Protótipos</a>
-        </div>
-      </li>
-      <li>
-        <img class="categories-menu-item-image" src="assets/img/voltar.jpg" alt="Voltar para o menu principal">
-        <div class="categories-menu-item-text">
-          <a class='categories-menu-item-text' href="index.html">Voltar</a>
-        </div>
-      </li>
+      {{/each}}
     </ul>
   </main>
   <footer class='footer-categoria'>

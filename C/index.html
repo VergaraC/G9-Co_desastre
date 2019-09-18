@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Índice</title>
+  <link href="assets/css/reset.css" rel="stylesheet">
+  <link href="assets/css/style-index.css" rel="stylesheet">
+  <link href="assets/css/style-geral.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+  <script src="assets/js/codes.js"></script>
+  <script src="assets/js/index.js"></script>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body class="body">
+  <header class="header">
+    <img class="logo" src="assets/img/logo.jpg" alt="logo">
+    <img class="contato" src="assets/img/contato.jpg" alt="Contato">
+  </header>
+  
+<div class="parent">
+
+  <div class="descricao">
+    <img class="img_title"  src="assets/img/perfil.png" alt="foto de perfil">
+    <h1 class="title">
+      Roberto Silva
+      </h1>
+      <br>
+      <P>
+        Formação: Engenheiro mecatrônico formado pelo INSPER
+        Experiência: 
+        Programação: Python, Arduino, HTML, CSS, JavaScript (com Node)
+        Software: CAD(Fusion), Adobe XD, Postman, Fritzing
+      
+      </P>
+        <br>
+        <br>
+
+        <p class="over_title">O que eu já fiz?</p>
+    </div>
+  </div>
+
+    <ul class="child1">
+      {{#each portfolio}}
+        <li class="sub_child1">
+        
+          <img class="child_image1" src="assets/img/{{@key}}.jpg" alt={{this.categoria}}>
+            <div class="child_text1">
+              <a class= "sub-title" href="categoria.html?key={{@key}}">{{this.categoria}}</a>
+              <p class="b_text">
+                {{this.Descrição}}
+              </p>
+            </div>
+        </li>
+      {{/each}} 
+    </ul>
+</div>
+
+  <footer class='footer'>
+    <img class='email' src="assets/img/email.png" alt="email">
+    <p class="email">robertosilva@gmail.com</p>
+    <img class='linked' src="assets/img/link.png" alt="linkedin">
+    <a class='linked' href="https://www.linkedin.com/in/robsilvajr/">in/robsilvajr</a>
+</footer>
+</body>
+</html>

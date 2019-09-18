@@ -46,6 +46,16 @@
       </li>
       {{/each}}
     </ul>
+    <ul class="categories-menu">
+      {{#each portfolio}}
+        <li>
+          <img class="categories-menu-item-image" src="assets/img/{{@key}}.jpg.jpg" alt={{this.categoria}}>
+          <div class="categories-menu-item-text">
+            <a class='categories-menu-item-text' href="categoria.html?key={{@key}}">{{this.categoria}}</a>
+          </div>
+        </li>
+      {{/each}}
+    </ul>
   </main>
   <footer class='footer-categoria'>
         <img class='email' src="assets/img/email.png" alt="email">

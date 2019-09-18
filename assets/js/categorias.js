@@ -17,5 +17,8 @@ document.addEventListener('DOMContentLoaded', function() {
     coDesReplace('.category-title',context)
     coDesReplace('.projetos-menu',context)
 
+    context = data
+    coDesReplace('.categories-menu',context)
+
   })
 })

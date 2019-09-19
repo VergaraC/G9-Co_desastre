@@ -149,6 +149,7 @@
 
   .projetos-menu-item{
     justify-content: flex-start;
+    margin-bottom: 3rem
   }
 
   .projetos-menu-item-text {

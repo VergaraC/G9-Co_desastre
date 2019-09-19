@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     coDesReplace('.titulo_pygame',context)
     coDesReplace('.titulo_pygame',context)
     coDesReplace('.descricao',context)
-    
+    coDesReplace('.projetos-menu-img',context)
     context = data['portfolio'][value2]
     
 

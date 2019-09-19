@@ -116,18 +116,22 @@
   justify-content: space-around;
   background-color: #4d4c47;
   font: normal 12pt 'Open Sans';
-  color: #000000;
+  color:  #e00000;
 
 }
 
 .email {
   width: 2rem;
   margin-left: 2rem;
+  font: normal 12pt 'Open Sans';
+  color:  #e00000;
 }
 
 .linked {
   width: 2rem;
   margin-left: 2rem;
+  font: normal 12pt 'Open Sans';
+  color:  #e00000;
 }
 
 @media (max-width: 68rem) {

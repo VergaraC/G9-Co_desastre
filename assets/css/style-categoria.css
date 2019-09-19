@@ -134,3 +134,24 @@
   .categories-menu {
     display: none;
   }
+
+  .category-title {
+    display: flex;
+    margin-left: 8rem;
+    flex-direction: column;
+    align-self: center;
+
+  }
+
+  .projetos-menu {
+    justify-content: flex-start;
+  }
+
+  .projetos-menu-item{
+    justify-content: flex-start;
+  }
+
+  .projetos-menu-item-text {
+    justify-content: flex-start;
+  }
+

@@ -30,20 +30,20 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-.child1{
+.child1,.child2,.child3,.child4{
   margin: 1rem;
   padding: 1rem;
   
 }
 
-.child_image1{
+.child_image1,.child_image2,.child_image3,.child_image4{
   margin: 0.4rem;
   padding: 0.4rem;
   text-align: center;
   flex-basis: 10%;
 }
 
-.child_text1{
+.child_text1,.child_text2,.child_text3,.child_text4{
   margin: 0.4rem;
   padding: 0.4rem; 
   text-align: left;
@@ -82,22 +82,54 @@
 }
 
 .child1{
- 
-  text-align: left;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  grid-column-start: auto;
-  grid-column-end: auto;
-}
-
-.sub_child{
   margin-top: 3rem;
   border-style: solid;
   border-width: 2px; 
   border-radius: 20%;
   border-color: #e00000;  
+  text-align: left;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 4;
 }
 
+.child2{
+  margin-top: 3rem;
+  border-style: solid;
+  border-width: 2px; 
+  border-radius: 20%;
+  border-color: #e00000;  
+  text-align: left;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
+
+.child3{
+  border-style: solid;
+  border-width: 2px; 
+  border-radius: 20%;
+  border-color: #e00000;  
+  text-align: left;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.child4{
+  border-style: solid;
+  border-width: 2px; 
+  border-radius: 20%;
+  border-color: #e00000;  
+  text-align: left;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
 .footer {
     height: 7rem;
     width: 100%;
@@ -183,13 +215,36 @@
   .child1{
     border-width: 0px; 
     text-align: left;
-    grid-row-start: auto;
-    grid-row-end: auto;
-    grid-column-start: auto;
-    grid-column-end: auto;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .child2{
+    border-width: 0px; 
+    text-align: left;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .child3{
+    border-width: 0px; 
+    text-align: left;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
   }
   
-  
+  .child4{  
+    border-width: 0px; 
+    text-align: left;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
   .footer {
     height: 7rem;
     width: 119%;

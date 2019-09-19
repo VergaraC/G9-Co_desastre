@@ -7,8 +7,6 @@
   <link href="assets/css/style-geral.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
-  <script src="assets/js/codes.js"></script>
-  <script src="assets/js/index.js"></script>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
@@ -27,40 +25,71 @@
       </h1>
       <br>
       <P>
-        Formação: Engenheiro mecatrônico formado pelo INSPER
-        Experiência: 
-        Programação: Python, Arduino, HTML, CSS, JavaScript (com Node)
-        Software: CAD(Fusion), Adobe XD, Postman, Fritzing
-      
+        Formação: Engenheiro mecatrônico formado pelo INSPER;
       </P>
-        <br>
-        <br>
+      <P>
+         Programação: Python, Arduino, HTML, CSS, JavaScript (com Node);
+      </P>
+      <P>
+        Software: CAD(Fusion), Adobe XD, Postman, Fritzing;
+      </P>
+      <br>
+      <br>
 
         <p class="over_title">O que eu já fiz?</p>
+        
+      </div>
+
+    <div class="child1">
+      <img class="child_image1" src="assets/img/eletronica.jpg" alt="eletronica">
+      <div class="child_text1">
+        <p>
+          <a class= "sub-title" href="categoria.html?key=eletronica">Eletrônica</a>
+        </p> 
+        <p class="b_text">
+          Essa categoria envolve projetos eletrônicos de automação e controle.
+        </p>
+      </div>
+    </div>
+    <div class="child2">
+      <img class="child_image2" src="assets/img/data.jpg" alt="data">
+      <div class="child_text2">
+        <p>
+          <a class= "sub-title"  href="categoria.html?key=data">Data</a>
+        </p>
+        <p class="b_text">
+          Essa categoria envolve projetos de previsões e conclusões do mundo físico a partir da pesquisa e análise de dados. 
+        </p>
+      </div>
+    </div>
+    <div class="child3">
+      <img class="child_image3" src="assets/img/softwares.png" alt="softwares">
+      <div class="child_text3">
+        <p>
+          <a class= "sub-title" href="categoria.html?key=softwares">Programação de Softwares</a>
+        </p>
+        <p class="b_text">
+          Essa categoria está relacionada a projetos que envolveram a programação de softwares para seu desenvolvimento.
+        </p>
+      </div>
+    </div>
+    <div class="child4">
+      <img class="child_image4" src="assets/img/prototipagem.png" alt="Protótipos">
+      <div class="child_text4">
+        <p>
+          <a  class= "sub-title" href="categoria.html?key=prototipagem">Protótipos</a>
+        </p>
+        <p class="b_text">
+          Essa categoria envolve projetos da cultura MAKER para fins sociais ou individuais.
+        </p>
+      </div>
     </div>
   </div>
-
-    <ul class="child1">
-      {{#each portfolio}}
-        <li class="sub_child1">
-        
-          <img class="child_image1" src="assets/img/{{@key}}.jpg" alt={{this.categoria}}>
-            <div class="child_text1">
-              <a class= "sub-title" href="categoria.html?key={{@key}}">{{this.categoria}}</a>
-              <p class="b_text">
-                {{this.Descrição}}
-              </p>
-            </div>
-        </li>
-      {{/each}} 
-    </ul>
-</div>
-
   <footer class='footer'>
     <img class='email' src="assets/img/email.png" alt="email">
     <p class="email">robertosilva@gmail.com</p>
     <img class='linked' src="assets/img/link.png" alt="linkedin">
-    <a class='linked' href="https://www.linkedin.com/in/robsilvajr/">in/robsilvajr</a>
+    <a class='linked' href="https://www.linkedin.com/in/robsilvajr/">/in/robsilvajr/</a>
 </footer>
 </body>
 </html>

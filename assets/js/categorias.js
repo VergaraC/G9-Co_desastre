@@ -8,9 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
   console.log(link)
   link.href = strlink
 
-
-
-  
   db.download('/', function(data) {
 
     context = data['portfolio'][value]

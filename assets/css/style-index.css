@@ -177,7 +177,7 @@
   .parent{
     margin-top:3rem;
     display: grid;
-    grid-template-rows: 1fr 0.5fr 0.5fr 0.5fr 0.5fr ;
+    grid-template-rows: 0.55fr 0.45fr 0.5fr 0.5fr 0.5fr ;
     grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr ;
   }
 
@@ -199,7 +199,11 @@
     grid-column-start: 3;
     grid-column-end: 5;
   }
-
+  .over_title{
+    font-family: 'EB Garamond', serif;
+    font: normal 32pt 'EB Garamond';
+    color: #e00000;
+    }
   .descricao{
     font-family: 'Open Sans', sans-serif; 
     font: normal 12pt 'Open Sans';

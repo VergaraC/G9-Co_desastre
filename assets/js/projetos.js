@@ -11,10 +11,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     context = data['portfolio'][value2]['projetos'][value]
     coDesReplace('.titulo_pygame',context)
-    coDesReplace('.titulo_pygame',context)
+    coDesReplace('.projetos-menu',context)
     coDesReplace('.descricao',context)
-    coDesReplace('.projetos-menu-img',context)
-    context = data['portfolio'][value2]
+  
+    context = data['portfolio'][value]
+    coDesReplace('.projetos-menu',context)
     
 
   })

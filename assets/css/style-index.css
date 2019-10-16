@@ -215,6 +215,12 @@
     grid-column-start: 2;
     grid-column-end: 6;
   } 
+  .child_image1,.child_image2,.child_image3,.child_image4{
+    margin: 0rem;
+    padding: 0rem;
+    text-align: center;
+    flex-basis: 20%;
+  }
 
   .child1{
     border-width: 0px; 
@@ -258,6 +264,11 @@
     background-color: #4d4c47;
     font: normal 12pt 'Open Sans';
     color:#e00000;
+  }
+  .b_text{
+    font-family: 'Open Sans', sans-serif; 
+    font: normal 14pt 'Open Sans';
+    color: #000000;
   }
 
 }

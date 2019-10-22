@@ -221,11 +221,13 @@
     padding: 0rem;
     text-align: center;
     flex-basis: 20%;
+
   }
 
   .child1{
     border-width: 0px; 
     text-align: left;
+    display: inline-flex;
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 1;
@@ -234,6 +236,7 @@
   .child2{
     border-width: 0px; 
     text-align: left;
+    display: inline-flex;
     grid-row-start: 3;
     grid-row-end: 4;
     grid-column-start: 1;
@@ -242,6 +245,7 @@
   .child3{
     border-width: 0px; 
     text-align: left;
+    display: inline-flex;
     grid-row-start: 4;
     grid-row-end: 5;
     grid-column-start: 1;
@@ -250,6 +254,7 @@
   .child4{  
     border-width: 0px; 
     text-align: left;
+    display: inline-flex;
     grid-row-start: 5;
     grid-row-end: 6;
     grid-column-start: 1;
